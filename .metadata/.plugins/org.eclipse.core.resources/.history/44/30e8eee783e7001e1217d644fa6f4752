@@ -1,0 +1,33 @@
+
+public class Number_To_String 
+{
+
+	String[] units = {"", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
+    String[] teens = {"", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"};
+    String[] tens = {"", "ten", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"};
+	
+    
+    
+    public static void main(String[] args) {
+    int num = 23;
+    	
+    String ss = Convert_to_String(num);
+
+    
+    }
+	//System.out.println("Hello World");
+    
+    //System.out.println(num + " = " + ss);
+    //System.out.println(num + " = " + ss);
+    //System.out.println(num)
+    
+    
+    
+    public static String Convert_to_String(int val)
+    {
+    	return "";
+    }
+    
+    
+	
+}
