@@ -1,0 +1,45 @@
+import java.util.Optional;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.devtools.DevTools;
+import org.openqa.selenium.devtools.v112.network.Network;
+
+import com.google.common.collect.ImmutableMap;
+
+public class NetworkLogActivity {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		
+		ChromeDriver driver = new ChromeDriver();
+		DevTools devtools = driver.getDevTools();
+		
+		devtools.createSession();
+		
+		devtools.send(Network.enable(Optional.empty(), Optional.empty(), Optional.empty()));
+		
+		ImmutableMap.Builder<String, Object> params = ImmutableMap.builder();
+		params.put("latitude", 59);
+        params.put("longitude", 47);
+        params.put("accuracy", 1);
+        
+		
+		
+		driver.executeCdpCommand("Emulation.setGeolocationOverride", params.build());
+		Thread.sleep(1000);
+		driver.get("https://google.com");
+		Thread.sleep(1000);
+		driver.findElement(By.name("q")).sendKeys("mandya",Keys.ENTER);
+		Thread.sleep(1000);
+		
+//		System.out.println(title);
+		
+		Thread.sleep(3000);
+		
+		driver.quit();
+
+	}
+
+}

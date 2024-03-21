@@ -1,0 +1,28 @@
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.devtools.DevTools;
+
+import com.google.common.collect.ImmutableMap;
+
+public class SetGeoLocation {
+	
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		
+		ChromeDriver driver = new ChromeDriver();
+		DevTools devtools = driver.getDevTools();
+		
+		devtools.createSession();
+		ImmutableMap.Builder<String, Object> params = ImmutableMap.builder();
+        params.put("width", 600);
+        params.put("height", 1000);
+        params.put("deviceScaleFactor", 68);
+        params.put("mobile", true);
+		
+		driver.executeCdpCommand("Emulation.setDeviceMetricsOverride", params.build());
+		
+		driver.get("https://rahulshettyacademy.com/angularAppdemo/");
+		
+		
+		
+	}
+}

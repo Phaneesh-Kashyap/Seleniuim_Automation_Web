@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-23T21:36:18 IST" name="Default suite" finished-at="2023-05-23T21:36:18 IST" duration-ms="42">
+    <groups>
+    </groups>
+    <test started-at="2023-05-23T21:36:18 IST" name="Default test" finished-at="2023-05-23T21:36:18 IST" duration-ms="42">
+      <class name="CoreJava.PS1">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:CoreJava.PS1@2177849e]" started-at="2023-05-23T21:36:18 IST" name="beforemethod" finished-at="2023-05-23T21:36:18 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="testrun()[pri:0, instance:CoreJava.PS1@2177849e]" started-at="2023-05-23T21:36:18 IST" name="testrun" finished-at="2023-05-23T21:36:18 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testrun -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:CoreJava.PS1@2177849e]" started-at="2023-05-23T21:36:18 IST" name="aftermethod" finished-at="2023-05-23T21:36:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- CoreJava.PS1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

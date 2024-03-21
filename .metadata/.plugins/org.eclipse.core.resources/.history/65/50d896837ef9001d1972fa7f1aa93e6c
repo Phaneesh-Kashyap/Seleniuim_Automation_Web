@@ -1,0 +1,22 @@
+package CoreJava;
+
+import org.testng.annotations.Test;
+
+public class PS1 extends PS{
+
+	@Test
+	public void testrun()
+	{
+		PS2 ps2 = new PS2();
+		int a = 3;
+		
+		printsomething();
+		System.out.println(ps2.increment());
+		
+		
+	}
+	
+	
+	
+	
+}

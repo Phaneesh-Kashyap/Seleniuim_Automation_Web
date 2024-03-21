@@ -1,0 +1,20 @@
+package CoreJava;
+
+public class PS2 {
+	
+	int a;
+	
+	public int increment(int a)
+	{
+		a++;
+		return a;
+		
+	}
+
+	public int decrement(int a)
+	{
+		a--;
+		return a;
+		
+	}
+}

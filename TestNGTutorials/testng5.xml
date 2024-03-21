@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Test 56">
+	<parameter name="testid" value="kashyap"></parameter>
+	<parameter name="password" value="kash@2023"></parameter>
+	
+  <test thread-count="5" name="T006_WebLogin_Apply_Personal_Loan">
+    <classes>
+      <class name="Intro.day3">
+		  <methods>
+			  <include name="web"></include>
+			  <include name="server"></include>
+		  </methods>
+      </class>
+      <class name="Intro.day4">
+		  <methods>
+			  <include name="personalloan"></include>			  
+		  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test thread-count="5" name="T007_MobileLogin_Applyboth_Personal_Car_Loan">
+    <classes>
+      <class name="Intro.day3">
+		  <methods>
+			  <include name="mobile"></include>
+			  <include name="backend"></include>
+		  </methods>
+      </class>
+      <class name="Intro.day4"></class>
+    </classes>      
+  </test> <!-- Test -->
+  
+  
+  <test thread-count="5" name="T008_ApiLogin_Apply_Car_Loan">
+    <classes>
+      <class name="Intro.day3">
+		  <methods>
+			  <include name="api"></include>
+		  </methods>
+      </class>
+      <class name="Intro.day4">
+		  <methods>
+			  <include name="carloan"></include>			  
+		  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

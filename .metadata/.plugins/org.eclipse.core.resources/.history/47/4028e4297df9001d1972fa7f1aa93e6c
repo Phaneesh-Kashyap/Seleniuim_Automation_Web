@@ -1,0 +1,14 @@
+package CoreJava;
+
+import org.testng.annotations.Test;
+
+public class PS {
+
+	@Test
+	public void printsomething() 
+	{
+		System.out.println("This is form Parent class");
+
+	}
+
+}

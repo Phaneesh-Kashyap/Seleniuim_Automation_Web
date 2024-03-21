@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Test 56">
+    
+  <test thread-count="5" name="T006_WebLogin_Apply_Personal_Loan">
+	  <groups>
+		  <run>
+			  <exclude name="smoke"></exclude>
+		  </run>
+	  </groups>
+	  
+    <classes>
+    	<class name="Intro.day1"/>
+    	<class name="Intro.day2"/>
+      	<class name="Intro.day3"/>
+      	<class name="Intro.day4"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

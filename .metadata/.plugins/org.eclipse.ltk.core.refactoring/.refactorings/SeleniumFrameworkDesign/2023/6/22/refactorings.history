@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SeleniumFrameworkDesign/src/test/java/cucumber/PurchaseOrder.feature&apos; to &apos;T001_E2E_e_Shopping_CreateOrder_And_Validate.feature&apos;" description="Rename resource &apos;PurchaseOrder.feature&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/test/java/cucumber/PurchaseOrder.feature" name="T001_E2E_e_Shopping_CreateOrder_And_Validate.feature" stamp="1685642692311" updateReferences="true"/>
+</session>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-02T21:38:53 IST" name="Suite" finished-at="2023-06-02T21:39:05 IST" duration-ms="12280">
+    <groups>
+    </groups>
+    <test started-at="2023-06-02T21:38:53 IST" name="Test" finished-at="2023-06-02T21:39:05 IST" duration-ms="12280">
+      <class name="DhanTest">
+        <test-method signature="GoogleTst()[pri:0, instance:DhanTest@7671cb68]" started-at="2023-06-02T21:38:53 IST" name="GoogleTst" finished-at="2023-06-02T21:39:05 IST" duration-ms="12249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleTst -->
+      </class> <!-- DhanTest -->
+      <class name="GoogleTest">
+        <test-method signature="GoogleTst()[pri:0, instance:GoogleTest@3541cb24]" started-at="2023-06-02T21:38:53 IST" name="GoogleTst" finished-at="2023-06-02T21:39:04 IST" duration-ms="11030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleTst -->
+      </class> <!-- GoogleTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

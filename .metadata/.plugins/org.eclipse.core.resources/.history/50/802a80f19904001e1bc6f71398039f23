@@ -1,0 +1,35 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.devtools.DevTools;
+
+import com.google.common.collect.ImmutableMap;
+
+public class SetGeoLocation {
+	
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		
+		ChromeDriver driver = new ChromeDriver();
+		DevTools devtools = driver.getDevTools();
+		
+		devtools.createSession();
+		ImmutableMap.Builder<String, Object> params = ImmutableMap.builder();
+        params.put("latitude", 40);
+        params.put("logitude", 3);
+        params.put("accuracy", 1);
+        
+		
+		driver.executeCdpCommand("Emulation.setDeviceMetricsOverride", params.build());
+		
+		driver.get("https://google.com");
+		driver.findElement(By.name("q")).sendKeys("netflix");
+		
+		driver.findElements(By.cssSelector(".A9xod")).get(0).click();
+		String title = driver.findElement(By.cssSelector(".default-ltr-cache-5xz0yv")).getText();
+		System.out.println(title);
+		
+		Thread.sleep(3000);
+		
+		
+	}
+}

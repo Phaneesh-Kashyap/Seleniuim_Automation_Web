@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-28T14:06:04 IST" name="Default suite" finished-at="2023-05-28T14:06:04 IST" duration-ms="45">
+    <groups>
+      <group name="smoke">
+        <method signature="day4.personalloan()[pri:0, instance:Intro.day4@1cbb87f3]" name="personalloan" class="Intro.day4"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-05-28T14:06:04 IST" name="Default test" finished-at="2023-05-28T14:06:04 IST" duration-ms="45">
+      <class name="Intro.day4">
+        <test-method is-config="true" signature="befc()[pri:0, instance:Intro.day4@1cbb87f3]" started-at="2023-05-28T14:06:04 IST" name="befc" finished-at="2023-05-28T14:06:04 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befc -->
+        <test-method signature="carloan(java.lang.String,java.lang.String)[pri:0, instance:Intro.day4@1cbb87f3]" started-at="2023-05-28T14:06:04 IST" name="carloan" data-provider="getData" finished-at="2023-05-28T14:06:04 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1-good user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carloan -->
+        <test-method is-config="true" signature="befm()[pri:0, instance:Intro.day4@1cbb87f3]" started-at="2023-05-28T14:06:04 IST" name="befm" finished-at="2023-05-28T14:06:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befm -->
+        <test-method is-config="true" signature="aftm()[pri:0, instance:Intro.day4@1cbb87f3]" started-at="2023-05-28T14:06:04 IST" name="aftm" finished-at="2023-05-28T14:06:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftm -->
+        <test-method signature="carloan(java.lang.String,java.lang.String)[pri:0, instance:Intro.day4@1cbb87f3]" started-at="2023-05-28T14:06:04 IST" name="carloan" data-provider="getData" finished-at="2023-05-28T14:06:04 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2-no history]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carloan -->
+        <test-method is-config="true" signature="befm()[pri:0, instance:Intro.day4@1cbb87f3]" started-at="2023-05-28T14:06:04 IST" name="befm" finished-at="2023-05-28T14:06:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befm -->
+        <test-method is-config="true" signature="befm()[pri:0, instance:Intro.day4@1cbb87f3]" started-at="2023-05-28T14:06:04 IST" name="befm" finished-at="2023-05-28T14:06:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befm -->
+        <test-method signature="carloan(java.lang.String,java.lang.String)[pri:0, instance:Intro.day4@1cbb87f3]" started-at="2023-05-28T14:06:04 IST" name="carloan" data-provider="getData" finished-at="2023-05-28T14:06:04 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3-fraud]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carloan -->
+        <test-method is-config="true" signature="aftm()[pri:0, instance:Intro.day4@1cbb87f3]" started-at="2023-05-28T14:06:04 IST" name="aftm" finished-at="2023-05-28T14:06:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftm -->
+        <test-method is-config="true" signature="aftm()[pri:0, instance:Intro.day4@1cbb87f3]" started-at="2023-05-28T14:06:04 IST" name="aftm" finished-at="2023-05-28T14:06:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftm -->
+        <test-method signature="personalloan()[pri:0, instance:Intro.day4@1cbb87f3]" started-at="2023-05-28T14:06:04 IST" name="personalloan" finished-at="2023-05-28T14:06:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalloan -->
+        <test-method is-config="true" signature="befm()[pri:0, instance:Intro.day4@1cbb87f3]" started-at="2023-05-28T14:06:04 IST" name="befm" finished-at="2023-05-28T14:06:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befm -->
+        <test-method is-config="true" signature="aftm()[pri:0, instance:Intro.day4@1cbb87f3]" started-at="2023-05-28T14:06:04 IST" name="aftm" finished-at="2023-05-28T14:06:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftm -->
+        <test-method is-config="true" signature="aftc()[pri:0, instance:Intro.day4@1cbb87f3]" started-at="2023-05-28T14:06:04 IST" name="aftc" finished-at="2023-05-28T14:06:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftc -->
+      </class> <!-- Intro.day4 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

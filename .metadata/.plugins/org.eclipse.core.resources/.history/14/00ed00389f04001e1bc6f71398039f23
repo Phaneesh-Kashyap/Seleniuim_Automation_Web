@@ -1,0 +1,20 @@
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.devtools.DevTools;
+
+import com.google.common.collect.ImmutableMap;
+
+public class NetworkLogActivity {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ChromeDriver driver = new ChromeDriver();
+		DevTools devtools = driver.getDevTools();
+		
+		devtools.createSession();
+		ImmutableMap.Builder<String, Object> params = ImmutableMap.builder();
+		
+
+	}
+
+}

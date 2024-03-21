@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+  
+  <listeners>
+	  <listener class-name="phaneeshkashyap.TestComponents.Listeners"></listener>
+  </listeners>
+  
+  
+  
+  <test thread-count="5" name="T001_Shopping_Order_Creation">
+    <classes>
+      <class name="phaneeshkashyap.Tests.T001_E2E_e_Shopping_CreateOrder_And_Validate"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="T002_Error Validation Tests">
+    <classes>
+      <class name="phaneeshkashyap.Tests.T002_Login_Error_Validation"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
