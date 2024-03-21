@@ -11686,3 +11686,7 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact binaryage:dev
 2024-03-21 11:24:50,366 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phane\Documents\04. Automation - new learning\Selenium\Projects\Selenium_Latest_Features\src\main\resources
 2024-03-21 11:24:50,369 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2024-03-21 11:24:50,370 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phane\Documents\04. Automation - new learning\Selenium\Projects\Selenium_Latest_Features\src\test\resources
+2024-03-21 11:24:52,039 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-21 11:24:52,039 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phane\Documents\04. Automation - new learning\Selenium\Projects\Selenium_Latest_Features\src\main\resources
+2024-03-21 11:24:52,041 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-21 11:24:52,041 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phane\Documents\04. Automation - new learning\Selenium\Projects\Selenium_Latest_Features\src\test\resources
