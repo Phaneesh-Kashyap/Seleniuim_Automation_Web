@@ -68,10 +68,14 @@ public class BaseClass {
 			ChromeOptions Options = new ChromeOptions();
 			if (brwserName.toLowerCase().contains("headless")){Options.addArguments("headless");}
 			
-			WebDriverManager.chromedriver().setup();
+//			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver(Options);			
+			
 //			driver.set(ThreadGuard.protect(new ChromeDriver()));
 //			driver.set((new ChromeDriver()));
-			driver = new ChromeDriver(Options);
+			
+//			driver = new ChromeDriver();
+
 		}
 		else if(brwserName.equalsIgnoreCase("edge"))
 		{

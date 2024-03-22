@@ -1,0 +1,16 @@
+package Programs;
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int val1 = 1221;
+		boolean val = isPalindrome(val1);
+		
+	}
+
+	public static boolean isPalindrome(int x) {
+        
+    }
+	
+}

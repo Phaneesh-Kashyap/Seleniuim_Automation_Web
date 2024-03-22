@@ -8,13 +8,14 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="parallel"/>
+			<item value="linktext"/>
 			<item value="Factory"/>
 			<item value="maven.plugins"/>
 			<item value="ignoring"/>
 			<item value="pollingEvery"/>
 			<item value="withTimeout"/>
 			<item value="WebDriverWait"/>
-			<item value="linktext"/>
 			<item value="Code to use DevTools"/>
 		</list>
 		<list key="replacehistory">

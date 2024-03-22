@@ -1,0 +1,21 @@
+package Selenium_learning;
+
+public class Interview {
+
+	public static void main(String[] args) {
+        System.out.println("Try programiz.pro");
+        
+        //HappyNewYear  --> HapyNewr
+        //MerryChristmas --> MeryChista
+        
+        String str = HappyNewYear
+        
+        for i=0 ; i < len(str); i++
+            String ss = str(i)
+            ss.replace()
+            
+        
+        
+    }
+	
+}

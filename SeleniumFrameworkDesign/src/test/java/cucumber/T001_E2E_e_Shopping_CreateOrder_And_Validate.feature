@@ -5,7 +5,7 @@ Feature: Create a Purchase Order from e-commerce site
 	
 	Background:
 	Given I landed on Ecommerce Page
-
+	
   @Regression
   Scenario Outline: Create and submit a Purchase Order
     Given Logged in with <username> and <password>
@@ -18,3 +18,7 @@ Feature: Create a Purchase Order from e-commerce site
     Examples: 
       | username               | password       | product          |
       | name@gmail.com         | Name@2023      | zara coat 3      |
+
+      
+      
+     

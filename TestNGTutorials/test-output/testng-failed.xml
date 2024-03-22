@@ -1,57 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Regression Test 56]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="T003_WebLogin_Apply_Personal_Loan(failed)">
-    <classes>
-      <class name="Intro.day3">
-        <methods>
-          <include name="aftertest"/>
-          <include name="befsuite"/>
-          <include name="web"/>
-          <include name="backend"/>
-          <include name="aftsuite"/>
-          <include name="prereq"/>
-        </methods>
-      </class> <!-- Intro.day3 -->
-    </classes>
-  </test> <!-- T003_WebLogin_Apply_Personal_Loan(failed) -->
-  <test thread-count="5" name="T004_MobileLogin_Applyboth_Personal_Car_Loan(failed)">
-    <classes>
-      <class name="Intro.day3">
-        <methods>
-          <include name="aftertest"/>
-          <include name="befsuite"/>
-          <include name="backend"/>
-          <include name="aftsuite"/>
-          <include name="prereq"/>
-        </methods>
-      </class> <!-- Intro.day3 -->
-    </classes>
-  </test> <!-- T004_MobileLogin_Applyboth_Personal_Car_Loan(failed) -->
-  <test thread-count="5" name="T005_ApiLogin_Apply_Car_Loan(failed)">
-    <classes>
-      <class name="Intro.day3">
-        <methods>
-          <include name="aftertest"/>
-          <include name="befsuite"/>
-          <include name="backend"/>
-          <include name="aftsuite"/>
-          <include name="prereq"/>
-        </methods>
-      </class> <!-- Intro.day3 -->
-    </classes>
-  </test> <!-- T005_ApiLogin_Apply_Car_Loan(failed) -->
+  <parameter name="password" value="kash@2023"/>
+  <parameter name="testid" value="kashyap"/>
+  <listeners>
+    <listener class-name="Intro.Listeners"/>
+  </listeners>
   <test thread-count="5" name="T006_WebLogin_Apply_Personal_Loan(failed)">
     <classes>
-      <class name="Intro.day3">
+      <class name="Intro.day5">
         <methods>
-          <include name="aftertest"/>
-          <include name="befsuite"/>
-          <include name="web"/>
-          <include name="aftsuite"/>
-          <include name="prereq"/>
+          <include name="mobile"/>
         </methods>
-      </class> <!-- Intro.day3 -->
+      </class> <!-- Intro.day5 -->
     </classes>
   </test> <!-- T006_WebLogin_Apply_Personal_Loan(failed) -->
 </suite> <!-- Failed suite [Regression Test 56] -->

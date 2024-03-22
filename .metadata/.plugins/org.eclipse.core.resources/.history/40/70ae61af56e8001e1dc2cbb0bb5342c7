@@ -1,0 +1,49 @@
+package Selenium_learning;
+
+public class Program_two_sums {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 int[] nums1 = {3,2,4};
+		 int target1 = 6;
+		 int[] val = twoSum(nums1,target1);
+		 System.out.println();
+		 
+		
+	}
+		
+		public static int[] twoSum(int[] nums, int target) {
+
+        int[2] res;
+        int  k;
+        boolean flag = false;
+          
+        for (int i = 0; i < nums.length ; i++)
+        {
+        	int search = target - nums[i];
+        	
+        	for (k = 0; k < nums.length ; k++)
+        	{
+        		if (nums[k] == search && i != k)
+        		{
+        			flag = true;
+        			break;
+        		}
+        	}
+        	
+        	if (flag)
+        	{
+        		//System.out.println("[" + i + "," + k + "]");
+        		res[0] = i;
+        		res[1] = k;
+        		
+        		return res;
+        		break;
+        	}
+        	
+        	
+        }
+
+	}
+
+}

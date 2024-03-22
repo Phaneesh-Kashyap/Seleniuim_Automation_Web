@@ -5,7 +5,7 @@
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="SeleniumFrameworkDesign"/>
     <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
     <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS">
-        <mapEntry key="phaneeshkashyap.Tests.T001_E2E_e_Shopping_CreateOrder_And_Validate" value="createOrder;getData;verifyOrder"/>
+        <mapEntry key="phaneeshkashyap.Tests.T001_E2E_e_Shopping_CreateOrder_And_Validate" value="verifyOrder;getData;createOrder"/>
     </mapAttribute>
     <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
         <listEntry value="phaneeshkashyap.Tests.T001_E2E_e_Shopping_CreateOrder_And_Validate"/>

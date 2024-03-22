@@ -1,0 +1,33 @@
+package Programs;
+
+public class Number_to_Roman {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+				String val1 = "III";
+				boolean val = isPalindrome(val1);
+				System.out.println(val);
+			}
+
+			public static boolean isPalindrome(int x) {
+				int y=0;
+				int z=x;
+				
+				while (x >0){
+						y = y*10 +(x%10);
+						x=x/10;
+					
+				}
+				//System.out.println(y);
+				if(y==z) 
+				{
+				return true;
+				}
+				else
+				{
+					return false;
+				}
+		    }
+
+}

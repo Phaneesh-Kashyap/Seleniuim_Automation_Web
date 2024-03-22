@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="cucumber.TestNGtestRunner">
+      <class name="phaneeshkashyap.Tests.T001_E2E_e_Shopping_CreateOrder_And_Validate">
         <methods>
-          <include name="setUpClass"/>
-          <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="0 1"/>
+          <include name="createOrder"/>
+          <include name="LaunchApp"/>
+          <include name="verifyOrder"/>
+          <include name="teadDown"/>
         </methods>
-      </class> <!-- cucumber.TestNGtestRunner -->
+      </class> <!-- phaneeshkashyap.Tests.T001_E2E_e_Shopping_CreateOrder_And_Validate -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
