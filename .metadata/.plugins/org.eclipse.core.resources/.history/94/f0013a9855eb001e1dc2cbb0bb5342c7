@@ -1,0 +1,23 @@
+package Programs;
+
+public class Valid_Parantheses {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String val1 = "()[]{}";
+		boolean val = isValid(val1);
+		System.out.println("Is the string valid? --- " +  val);
+
+	}
+	
+	public static boolean isValid(String s) {
+		
+		
+		
+		
+		
+		return false;
+        
+    }
+
+}

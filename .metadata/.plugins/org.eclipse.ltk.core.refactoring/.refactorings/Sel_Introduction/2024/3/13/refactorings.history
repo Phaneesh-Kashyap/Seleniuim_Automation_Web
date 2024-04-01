@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;Programs.Merge_Two_Sorted_Lists.java&apos; to &apos;Remove_Dup_sort_Array.java&apos;&#x0D;&#x0A;- Original project: &apos;Sel_Introduction&apos;&#x0D;&#x0A;- Original element: &apos;Programs.Merge_Two_Sorted_Lists.java&apos;&#x0D;&#x0A;- Renamed element: &apos;Programs.Remove_Dup_sort_Array.java&apos;" description="Rename compilation unit &apos;Merge_Two_Sorted_Lists.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;Programs{Merge_Two_Sorted_Lists.java" name="Remove_Dup_sort_Array.java" references="false" stamp="1711466831947" version="1.0"/>
+</session>

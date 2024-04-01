@@ -1,0 +1,10 @@
+package Programs;
+
+public class Remove_dup_Element_Array {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

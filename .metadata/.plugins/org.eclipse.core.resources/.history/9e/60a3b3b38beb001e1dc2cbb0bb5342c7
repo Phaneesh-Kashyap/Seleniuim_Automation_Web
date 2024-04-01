@@ -1,0 +1,19 @@
+package Programs;
+
+public class Search_Insert_Position {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] nums = {1,3,5,6};
+		int target = 5;
+	 	String needle = "sade";
+	    int ss = strStr(nums,needle);
+	    System.out.println(ss);
+
+	}
+
+	
+	  public Static int searchInsert(int[] nums, int target) {
+	        
+	    }
+}

@@ -1,0 +1,83 @@
+package Programs;
+
+public class Add_binary_numbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String a = "1010", b = "1011";
+		String sumval = addBinary(a,b);
+		System.out.println(sumval);
+		
+	}
+
+	public static String addBinary(String a, String b) {
+		
+		int alen = a.length();
+		int blen = b.length();
+		char aval,bval;
+		
+		//int bigone = Math.max(alen, blen);
+		String retval = "";
+		boolean charryforward=false;
+		
+		for(int i=Math.max(alen, blen) ; i>0; i--)
+		{
+			    
+				aval = a.charAt(i-1);
+				bval = b.charAt(i-1);
+					
+				if(aval=='1' && bval=='1')
+				{
+					if(charryforward)
+					{
+						retval = "1" + retval;
+						charryforward = true;	
+					}
+					else
+					{
+						retval = "0" + retval;
+						charryforward = true;	
+					}
+				}
+				else if((aval=='0' && bval=='1')||(aval=='1' && bval=='0'))
+				{
+					if(charryforward)
+					{
+						retval = "0" + retval;
+						charryforward = true;	
+					}
+					else
+					{
+						retval = "1" + retval;
+						charryforward = false;	
+					}	
+				}
+				else if(aval=='0' && bval=='0')
+				{
+					if(charryforward)
+					{
+						retval = "1" + retval;
+						charryforward = false;	
+					}
+					else
+					{
+						retval = "0" + retval;
+						charryforward = false;	
+					}		
+				}
+			
+		}
+		
+		if(charryforward)
+		{
+			retval = "1" + retval;
+			charryforward = false;	
+		}
+		
+		
+		return retval;
+        
+    }
+	
+	
+}

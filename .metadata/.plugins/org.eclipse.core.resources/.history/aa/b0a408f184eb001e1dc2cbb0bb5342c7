@@ -1,0 +1,21 @@
+package Programs;
+
+public class Merge_Two_Sorted_Lists {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String val1 = "{{}{}}";
+		boolean val = merge_sort(val1);
+		System.out.println("Is the string valid? --- " +  val);
+
+	}
+	
+	
+	public static boolean merge_sort(String s) {
+		
+		
+		
+		
+	}
+
+}

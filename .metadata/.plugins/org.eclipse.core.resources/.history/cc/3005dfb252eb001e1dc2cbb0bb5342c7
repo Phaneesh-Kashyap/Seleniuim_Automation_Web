@@ -1,0 +1,45 @@
+package Programs;
+
+public class longestCommonPrefix {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+				String[] strs = {"caflo","flower","flow","flight","flick"};
+				String val = findit(strs);
+				System.out.println(val);
+				
+			}
+	
+		public static String findit(String[] strs) {
+
+			if (strs == null || strs.length == 0) {
+	            return "";
+	        }
+	        
+	        // Initialize the longest common prefix as the first string in the array
+	        String prefix = strs[0];
+	        
+	        // Iterate through the strings in the array starting from the second string
+	        for (int i = 1; i < strs.length; i++) {
+	            // Compare characters of each string with the current longest common prefix
+	            int j = 0;
+	            while (j < prefix.length() && j < strs[i].length() && prefix.charAt(j) == strs[i].charAt(j)) 
+	            {
+	                j++;
+	            }
+	            
+	            // Update the prefix to the common prefix found so far
+	            prefix = prefix.substring(0, j);
+	            
+	            // If the prefix becomes empty, there's no common prefix
+	            if (prefix.isEmpty()) 
+	            {
+	                return "";
+	            }
+	        }
+	        
+	        return prefix;
+			
+		}
+}
