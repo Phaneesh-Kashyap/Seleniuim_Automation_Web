@@ -10,7 +10,7 @@ public class Program_two_sums {
 		// TODO Auto-generated method stub
 		 int[] nums1 = {3,2,4};
 		 int target1 = 6;
-		 int[] val = twoSum1(nums1,target1);
+		 int[] val = twoSum2(nums1,target1);
 		 System.out.println(val[0] + " , " + val[1]);
 		 
 		
@@ -84,19 +84,19 @@ public class Program_two_sums {
 
 			//{3,2,4};6;
 	          
-			int[][] numsWithIndex = new int[nums.length][2];
+			int[][] numsIndex = new int[nums.length][2];
 		    for (int i = 0; i < nums.length; i++) {
-		        numsWithIndex[i][0] = nums[i];
-		        numsWithIndex[i][1] = i;
+		    	numsIndex[i][0] = nums[i];
+		    	numsIndex[i][1] = i;
 		    }
 
 
-		    Arrays.sort(numsWithIndex, Comparator.comparingInt(arr -> arr[0]));
+		    Arrays.sort(numsIndex, Comparator.comparingInt(arr -> arr[0]));
 		    int left = 0, right = nums.length - 1;
 		    while (left < right) {
-		        int sum = numsWithIndex[left][0] + numsWithIndex[right][0];
+		        int sum = numsIndex[left][0] + numsIndex[right][0];
 		        if (sum == target) {
-		            return new int[] {numsWithIndex[left][1], numsWithIndex[right][1]};
+		            return new int[] {numsIndex[left][1], numsIndex[right][1]};
 		        } else if (sum < target) {
 		            left++;
 		        } else {

@@ -1,0 +1,46 @@
+package Programs;
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int val1 = 101;
+		boolean val = isPalindrome(val1);
+		System.out.println(val);
+	}
+
+	
+
+	
+	
+	public static boolean isPalindrome(int x) {
+		int y=0;
+		int z=x;
+		int b=0;
+		
+		while (x >=0 && x!=10){
+				y = y*10 +(x%10);
+				x=x/10;
+				b=x/10;
+				
+				if (y==b || y==x || z<10 || z==0) return true;
+				
+		}
+		//System.out.println(y);
+		return false;
+		
+    }
+	public boolean isPalindrome1(int x) {
+        int y=0;
+		int z=x;
+		
+		while (x >0){
+				y = y*10 +(x%10);
+				x/=10;
+			
+		}
+		//System.out.println(y);
+		if(y==z) return true;
+	    return false;
+	}
+}
